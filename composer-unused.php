@@ -7,6 +7,5 @@ use ComposerUnused\ComposerUnused\Configuration\NamedFilter;
 
 return static function (Configuration $config): Configuration {
     return $config
-        ->addNamedFilter(NamedFilter::fromString('codeigniter4/framework'))
-        ->addNamedFilter(NamedFilter::fromString('php'));
+        ->addNamedFilter(NamedFilter::fromString('codeigniter4/framework'));
 };
