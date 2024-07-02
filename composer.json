@@ -69,7 +69,6 @@
     "inspect": "deptrac analyze --cache-file=build/deptrac.cache",
     "mutate": "infection --threads=2 --skip-initial-tests --coverage=build/phpunit",
     "patch": "patch",
-    "retool": "retool",
     "test": "phpunit"
   }
 }
