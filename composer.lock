@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "801db88d66517c1f305af8abb6ca035d",
+    "content-hash": "908f67cb237787020804ef831ef9efa7",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -1359,27 +1359,26 @@
         },
         {
             "name": "kint-php/kint",
-            "version": "5.1.1",
+            "version": "6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kint-php/kint.git",
-                "reference": "8c5ec370c3382ceae0b88e91f9bbb00e6bb4f93b"
+                "reference": "371e67a3036fcfb7cec06481ab44eba15e338db7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/8c5ec370c3382ceae0b88e91f9bbb00e6bb4f93b",
-                "reference": "8c5ec370c3382ceae0b88e91f9bbb00e6bb4f93b",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/371e67a3036fcfb7cec06481ab44eba15e338db7",
+                "reference": "371e67a3036fcfb7cec06481ab44eba15e338db7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3",
-                "phpspec/prophecy-phpunit": "^2",
                 "phpunit/phpunit": "^9",
                 "seld/phar-utils": "^1",
-                "symfony/finder": ">=4.0",
+                "symfony/finder": ">=7",
                 "vimeo/psalm": "^5"
             },
             "suggest": {
@@ -1409,18 +1408,17 @@
                     "homepage": "https://github.com/kint-php/kint/graphs/contributors"
                 }
             ],
-            "description": "Kint - debugging tool for PHP developers",
+            "description": "Kint - Advanced PHP dumper",
             "homepage": "https://kint-php.github.io/kint/",
             "keywords": [
                 "debug",
-                "kint",
-                "php"
+                "dump"
             ],
             "support": {
                 "issues": "https://github.com/kint-php/kint/issues",
-                "source": "https://github.com/kint-php/kint/tree/5.1.1"
+                "source": "https://github.com/kint-php/kint/tree/6.0"
             },
-            "time": "2024-04-26T14:20:09+00:00"
+            "time": "2024-11-16T18:50:50+00:00"
         },
         {
             "name": "liaison/revision",
