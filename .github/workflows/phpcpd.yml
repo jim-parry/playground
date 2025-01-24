@@ -16,6 +16,6 @@ on:
 
 jobs:
   phpcpd:
-    uses: codeigniter4/.github/.github/workflows/phpcpd.yml@CI45
+    uses: codeigniter4/.github/.github/workflows/phpcpd.yml@CI46
     with:
       dirs: "src/ tests/"

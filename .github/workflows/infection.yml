@@ -12,4 +12,4 @@ on:
 
 jobs:
   infection:
-    uses: codeigniter4/.github/.github/workflows/infection.yml@CI45
+    uses: codeigniter4/.github/.github/workflows/infection.yml@CI46
